@@ -75,10 +75,9 @@ def k_means(restaurants, k, max_updates=100):
         # BEGIN Question 6
         clusters = group_by_centroid(restaurants, centroids)
         centroids = [find_centroid(r) for r in clusters]
-        # END Question 6
         n += 1
     return centroids
-
+        # END Question 6
 
 ################################
 # Phase 3: Supervised Learning #
